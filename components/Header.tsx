@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,9 +13,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 relative">
-              <div className="w-full h-full bg-gradient-to-br from-teal-400 to-teal-600 rounded-full flex items-center justify-center">
-                <div className="w-4 h-4 sm:w-6 sm:h-6 border-2 border-white rounded-full border-l-transparent animate-spin"></div>
-              </div>
+
+              <Image src="/images/logo.png" alt="Coriolis Accesorios Logo" fill className="object-contain" priority />
+
             </div>
             <div className="flex flex-col">
               <span className="text-lg sm:text-xl font-bold text-gray-900">Coriolis</span>

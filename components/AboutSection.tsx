@@ -5,8 +5,11 @@ export default function AboutSection() {
     <section id="nosotros" className="py-12 sm:py-16 lg:py-20 ocean-gradient">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+         
+         
           {/* Content - Mobile First */}
           <div className="order-2 lg:order-1 space-y-6 sm:space-y-8">
+            
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Sobre
@@ -85,7 +88,7 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2 relative">
             <div className="aspect-square bg-gradient-to-br from-teal-100 to-cyan-200 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl">
               <Image
-                src="/placeholder.svg?height=600&width=600&text=Artesana+Trabajando"
+                src="/images/logo.png"
                 alt="Artesana trabajando en accesorios marinos"
                 fill
                 className="object-cover"

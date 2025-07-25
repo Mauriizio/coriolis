@@ -6,9 +6,9 @@ export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const productImages = [
-    "/placeholder.svg?height=600&width=600&text=Medusas+Moradas+Principal",
-    "/placeholder.svg?height=600&width=600&text=Vista+Lateral",
-    "/placeholder.svg?height=600&width=600&text=Detalle+Textura",
+    "/images/promo1.png",
+    "/images/promo2.png",
+    "/images/promo1.png",
   ]
 
   const handleWhatsAppOrder = () => {
@@ -27,10 +27,10 @@ export default function HeroProduct() {
             {/* Main Image */}
             <div className="relative aspect-square bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl overflow-hidden">
               <Image
-                src={productImages[selectedImage] || "/placeholder.svg"}
+                src={productImages[selectedImage] || "/images/logo.png"}
                 alt="Aretes de Medusas Moradas - Coriolis Accesorios"
                 fill
-                className="object-cover"
+                className="object-contain object-center"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
               />

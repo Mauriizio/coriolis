@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
@@ -6,8 +8,8 @@ export default function Footer() {
           {/* Brand - Mobile First */}
           <div className="space-y-4 text-center sm:text-left">
             <div className="flex items-center justify-center sm:justify-start space-x-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-teal-400 to-teal-600 rounded-full flex items-center justify-center">
-                <div className="w-6 h-6 sm:w-8 sm:h-8 border-2 border-white rounded-full border-l-transparent animate-spin"></div>
+              <div className="w-10 h-10 sm:w-12 sm:h-12 relative">
+                <Image src="/images/logo.png" alt="Coriolis Accesorios Logo" fill className="object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl sm:text-2xl font-bold">Coriolis</span>
@@ -110,7 +112,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center">
           <p className="text-gray-400 text-sm sm:text-base">
-            © 2025 Coriolis Accesorios. Hecho con 💙 para los amantes del océano.
+            © 2025 Hecho con 💙 por Maurizio Caballero
           </p>
         </div>
       </div>
