@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
@@ -16,6 +17,17 @@ export default function HeroProduct() {
       "¡Hola! Me interesan los aretes de La Coleccion Oceánica 2025 \n\n¿Podrías darme más información sobre disponibilidad y colores?",
     )
     window.open(`https://wa.me/56949473122?text=${message}`, "_blank")
+  }
+
+  // Función para hacer scroll al catálogo
+  const scrollToCatalog = () => {
+    const catalogSection = document.getElementById("productos")
+    if (catalogSection) {
+      catalogSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      })
+    }
   }
 
   return (
@@ -35,7 +47,7 @@ export default function HeroProduct() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
               />
               <div className="absolute top-3 left-3 sm:top-4 sm:left-4 bg-teal-500 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-medium">
-                ✨ Producto Destacado
+                ✨ Nueva Colección
               </div>
             </div>
 
@@ -121,9 +133,17 @@ export default function HeroProduct() {
                 <span className="text-sm sm:text-base">Comprar por WhatsApp</span>
               </button>
 
-              <button className="w-full border-2 border-teal-500 text-teal-600 hover:bg-teal-50 font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-xl transition-all duration-300 text-sm sm:text-base focus-visible">
-                Ver Más Productos del Catálogo
+             <button
+                onClick={scrollToCatalog}
+                className="w-full border-2 border-teal-500 text-teal-600 hover:bg-teal-50 font-semibold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center space-x-2"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                <span>Ver Más Productos del Catálogo</span>
               </button>
+
+              
             </div>
           </div>
         </div>
