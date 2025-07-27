@@ -17,6 +17,8 @@ interface Product {
 }
 
 const products: Product[] = [
+  
+  
   //Coleccion Oceanica
   {
     id: 1,
@@ -33,7 +35,7 @@ const products: Product[] = [
   {
     id: 2,
     name: "Aros de Tiburón Ballena Colgantes",
-    description: "Aros de Tiburón Ballena Colgantes, elaborados en porcelana fría, con base de acero inoxidable.",
+    description: "Tiburón Ballena Colgante, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       { color: "Azul", image: "images/img (36).jpg" },
   
@@ -45,7 +47,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "Aros de Tiburón Ballena Topito",
-    description: "Aros de Tiburón Ballena Version Topito, elaborados en porcelana fría, con base de acero inoxidable.",
+    description: "Tiburón Ballena Topito, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       { color: "Azul", image: "images/img (35).jpg" },
     ],
@@ -136,7 +138,7 @@ const products: Product[] = [
     name: "Aros de Nemo",
     description: "Aros de Nemo, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Coral", image: "images/img (11).jpg" },
+      { color: "Rojo", image: "images/img (11).jpg" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Nemo 🐠",
@@ -169,7 +171,7 @@ const products: Product[] = [
   {
     id: 13,
     name: "Aros de Estrella y Concha",
-    description: "Composición Marina Estrella y Concha, elaborados en porcelana fría, con base de acero inoxidable.",
+    description: "Composición Marina Estrella y Concha, en porcelana fría, con base de acero inoxidable.",
     variants: [
       { color: "Naranja", image: "images/img (43).jpg" },
         ],
@@ -180,16 +182,169 @@ const products: Product[] = [
   {
     id: 14,
     name: "Topitos de Conchas",
-    description: "Mini Conchitas, Ideal para el dia a dia.",
+    description: "Mini Conchitas, Ideal para el dia a dia, en porcelana fría, con base de acero inoxidable.",
     variants: [
       { color: "Coral", image: "images/img (56).jpg" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los topitos de Conchas 🐚",
   },
+
+  //Coleccion Floral
+  {
+    id: 15,
+    name: "Topitos de Mini Flores",
+    description: "Mini Flores para combinar, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Personalizado", image: "images/img (44).jpg" },
+      { color: "Morado", image: "images/img (58).jpg" },
+      { color: "Morado", image: "images/img (57).jpg" },
+      { color: "Rojo", image: "images/img (55).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos de mini flores 🌸",
+  },
+
+  {
+    id: 16,
+    name: "Aros de Flor de Zafira",
+    description: "Aros de Flor Zafira, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Rojo", image: "images/img (47).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos de Zafira 🌺",
+  },
+
+
+  {
+    id: 17,
+    name: "Aros de Flor de Melany",
+    description: "Base redonda con pequeñas flores en tonos suaves, estilo elegante y delicado.",
+    variants: [
+      
+      { color: "Coral", image: "images/img (39).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los aros de Flor Melany 🌼",
+  },
+
+  {
+    id: 18,
+    name: "Aros de Flor de Margarita",
+    description: "Inspirados en Margaritas frescas, en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Blanco", image: "images/img (18).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los aros de flor Margarita 🌼",
+  },
+
+  {
+    id: 19,
+    name: "Aros de Flor de Pensamientos",
+    description: "Inspirados en la Flor Pensamientos, en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Morado", image: "images/img (28).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los aros de flor Pensamientos 🌺",
+  },
+
+  {
+    id: 20,
+    name: "Aros de Flor de Liora",
+    description: "Inspirados en la Flor de Liora, en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Rojo", image: "images/img (67).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos de flor de Liora 🌸",
+  },
+
+  {
+    id: 21,
+    name: "Aros de Girasol Topito",
+    description: "Aros florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Amarillo", image: "images/img (60).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos de flor de Girasol 🌻",
+  },
+
+  {
+    id: 22,
+    name: "Aros de Monstera",
+    description: "Aros de inspiracion tropical en forma de hoja Monstera, en su version clasica o variegada.",
+    variants: [
+      
+      { color: "Verde", image: "images/img (23).jpg" },
+       { color: "Verde", image: "images/img (26).jpg" },
+       { color: "Verde", image: "images/img (25).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los aros de hoja Monstera 🍃",
+  },
+
+  {
+    id: 23,
+    name: "Aros de Girasol Colgante",
+    description: "Aros florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Amarillo", image: "images/img (13).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los aros de flor de Girasol colgantes 🌻",
+  },
+
+  {
+    id: 24,
+    name: "Aros de Flor de Margarita Topitos",
+    description: "Aros florales inspirados en Margaritas frescas en version topitos.",
+    variants: [
+      
+      { color: "Blanco", image: "images/img (18).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos de flor Margarita 🌼",
+  },
+
+  {
+    id: 25,
+    name: "Aros Floriolis Topitos",
+    description: "Aros llamativos con una gran flor central, en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Naranja", image: "images/img (41).jpg" },
+        ],
+    category: "Colección Floral",
+    whatsappMessage: "Me interesan los topitos modelo Floriolis 🏵️",
+  },
+
+  //Coleccion Pet Lovers
   
+  {
+    id: 26,
+    name: "Huellitas Pet Lovers",
+    description: "Simpática mini huellita en topito para amantes de los animales.",
+    variants: [
+      
+      { color: "Personalizado", image: "images/img (62).jpg" },
+        ],
+    category: "Colección Pet Lovers",
+    whatsappMessage: "Me interesan las Huellitas Pet Lovers 🐾",
+  },
 
 ]
+
+
 
 export default function ProductCatalog() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
@@ -527,6 +682,7 @@ function getColorHex(colorName: string): string {
     Negro: "#1f2937",
     Gris: "#6b7280",
     "Azul marino": "#1e40af",
+    Verde: "#00ff40ff",
     Turquesa: "#06b6d4",
     Celeste: "#7dd3fc",
     Coral: "#fb7185",
@@ -534,8 +690,8 @@ function getColorHex(colorName: string): string {
     Naranja: "#f97316",
     Amarillo: "#eab308",
     Rojo: "#ef4444",
-    Perla: "#f8fafc",
-    Blanco: "#ffffff",
+    Perla: "#f8fcf9ff",
+    Blanco: "#d6d1d1ff",
     Beige: "#d6d3d1",
     "Blanco y Negro": "#6b7280",
   }
