@@ -13,74 +13,116 @@ interface Product {
 }
 
 const products: Product[] = [
-  {
+
+  //Coleccion Oceanica
+  {   
     id: 1,
-    name: "Aretes de Orca",
+    name: "Aros de Orca",
     description: "Aros de Orca, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (1).jpg",
-    category: "Marina",
+    image: "images/img (8).jpg",
+    category: "Colección Oceánica",
     colors: ["Blanco y Negro"],
-    whatsappMessage: "Me interesan los aretes de Orca 🐋",
+    whatsappMessage: "Me interesan los aros de Orca 🐋",
   },
 
   {
     id: 2,
-    name: "Aretes de Estrella de Mar",
-    description: "Aros de Estrella de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (2).jpg",
-    category: "Marina",
+    name: "Aros Estrella de Mar #1",
+    description:"Aros de Estrella de Mar elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (21).jpg",
+    category: "Colección Oceánica",
     colors: ["Naranja"],
-    whatsappMessage: "Me interesan los aretes de Estrella de Mar ⭐",
+    whatsappMessage: "Me interesan los aros de Estrella de Mar ⭐",
   },
   
+  
+
   {
     id: 3,
-    name: "Aretes de Orquidea",
-    description: "Aros de Orquidea, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (3).jpg",
-    category: "Floral",
-    colors: ["Violeta"],
-    whatsappMessage: "Me interesan los aretes de Orquidea 💮",
+    name: "Aros de Ballena Azul",
+    description: "Aros de Ballena, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (6).jpg",
+    category: "Colección Oceánica",
+    colors: ["Azul"],
+    whatsappMessage: "Me interesan los aros de Ballena 🐳",
   },
+
+  
 
   {
     id: 4,
-    name: "Aretes de Ballena",
-    description: "Aros de Ballena, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (4).jpg",
-    category: "Marina",
+    name: "Aros de Delfin",
+    description: "Aros de Delfin, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (32).jpg",
+    category: "Colección Oceánica",
     colors: ["Azul"],
-    whatsappMessage: "Me interesan los aretes de Ballena 🐳",
+    whatsappMessage: "Me interesan los aros de Delfines 🐬",
   },
-
+  
   {
     id: 5,
-    name: "Aretes de Flor Naranja",
-    description: "Aros de Flores, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (5).jpg",
-    category: "Floral",
-    colors: ["Naranja"],
-    whatsappMessage: "Me interesan los aretes de Flores Naranja 🏵️",
+    name: "Aros de Caballito de Mar",
+    description: "Aros de Caballito de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (1).jpg",
+    category: "Colección Oceánica",
+    colors: ["Azul", "Morado"],
+    whatsappMessage: "Me interesan los aros de Caballito de Mar 🐎",
   },
 
   {
     id: 6,
-    name: "Aretes de Flor Delfin",
-    description: "Aros de Delfin, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (6).jpg",
-    category: "Marina",
+    name: "Tiburón Ballena Colgante",
+    description: "Aros de Tiburón Ballena colgante, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (36).jpg",
+    category: "Colección Oceánica",
     colors: ["Azul"],
-    whatsappMessage: "Me interesan los aretes de Delfines 🐬",
+    whatsappMessage: "Me interesan los aros de Tiburon Ballena Colgante 🦈",
   },
-  
+
   {
     id: 7,
-    name: "Aretes de Caballito de Mar",
-    description: "Aros de Caballito de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
-    image: "images/acc1 (7).jpg",
-    category: "Marina",
+    name: "Tiburón Ballena Topito",
+    description: "Aros de Tiburón Ballena topito, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (35).jpg",
+    category: "Colección Oceánica",
+    colors: ["Azul"],
+    whatsappMessage: "Me interesan los aros de Tiburon Ballena Topito 🦈",
+  },
+
+  {
+    id: 8,
+    name: "Aro de Foca",
+    description: "Aros de Foca, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (30).jpg",
+    category: "Colección Oceánica",
+    colors: ["gray"],
+    whatsappMessage: "Me interesan los aros de Foca 🦭",
+  },
+
+
+
+
+
+
+  // Colección Floral
+  {
+    id: 9,
+    name: "Aros de Pensamientos",
+    description: "Aros de Pensamientos, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/img (28).jpg",
+    category: "Coleccion Floral",
     colors: ["Violeta"],
-    whatsappMessage: "Me interesan los aretes de Caballito de Mar 🐎",
+    whatsappMessage: "Me interesan los aros de Pensamientos💮",
+  },
+
+  {
+    id: 10,
+    name: "Aros de Flor Naranja",
+    description: "Aros de Flores, elaborados en porcelana fría, con base de acero inoxidable.",
+    image: "images/acc1 (5).jpg",
+    category: "Floral",
+    colors: ["Naranja"],
+    whatsappMessage: "Me interesan los aros de Flores Naranja 🏵️",
   },
 ]
 
