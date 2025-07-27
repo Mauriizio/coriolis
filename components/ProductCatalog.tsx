@@ -530,8 +530,8 @@ export default function ProductCatalog() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Nuestro Catálogo
-            <span className="block text-teal-600">Marino</span>
+            Nuestra Coleccion
+            <span className="block text-teal-600">Oceánica y Floral 2025</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Descubre nuestra colección completa de accesorios inspirados en la vida marina, cada pieza única y hecha con

@@ -13,7 +13,7 @@ export default function HeroProduct() {
 
   const handleWhatsAppOrder = () => {
     const message = encodeURIComponent(
-      "¡Hola! Me interesan los aretes de Medusas Moradas 🪼💜\n\n¿Podrías darme más información sobre disponibilidad y colores?",
+      "¡Hola! Me interesan los aretes de La Coleccion Oceánica 2025 \n\n¿Podrías darme más información sobre disponibilidad y colores?",
     )
     window.open(`https://wa.me/56949473122?text=${message}`, "_blank")
   }
@@ -30,7 +30,7 @@ export default function HeroProduct() {
                 src={productImages[selectedImage] || "/images/logo.png"}
                 alt="Aretes de Medusas Moradas - Coriolis Accesorios"
                 fill
-                className="object-contain object-center"
+                className="object-cover object-center"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
               />
@@ -68,15 +68,21 @@ export default function HeroProduct() {
           <div className="order-2 lg:order-2 space-y-6 sm:space-y-8">
             <div>
               <div className="flex items-center space-x-2 text-teal-600 text-sm font-medium mb-2">
-                <span>🌊 Colección Marina</span>
+                <span>🔥 Nueva Temporada 2025</span>
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
-                Aretes de Medusas
-                <span className="block text-teal-600">Moradas</span>
+                Colección
+                <span className="block text-teal-600">Oceánica 2025</span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
-                Aros colgantes de medusas con mucho movimiento 🪼💜 elaborados y pintados a mano en porcelana fría, con
-                base de acero inoxidable.
+                 Sumérgete en la magia del océano con esta línea exclusiva de aros artesanales, elaborados y pintados a mano en porcelana fría, con bases de acero inoxidable hipoalergénico.
+                
+                Cada diseño representa una especie marina con ternura y detalle, celebrando la belleza del mar y el arte hecho con amor.
+
+               🐳Ballenas,🐬 delfines, 🦀cangrejos,🦈tiburones, y mucho más...
+
+              Descubre piezas únicas para mujeres que aman lo natural, lo auténtico y lo especial.
+
               </p>
             </div>
 
