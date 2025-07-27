@@ -7,8 +7,8 @@ export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const productImages = [
-    "/images/promo1.png",
     "/images/promo2.png",
+    "/images/promo1.png",
     "/images/promo3.png",
   ]
 
