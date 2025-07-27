@@ -17,74 +17,178 @@ interface Product {
 }
 
 const products: Product[] = [
+  //Coleccion Oceanica
   {
     id: 1,
     name: "Aros de Orca",
     description: "Aros de Orca, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Blanco y Negro", image: "images/img (8).jpg" },
-      { color: "Gris", image: "images/img (9).jpg" },
-      { color: "Negro", image: "images/img (10).jpg" },
+      { color: "Negro", image: "images/img (8).jpg" },
+
     ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Orca 🐋",
   },
+
   {
     id: 2,
-    name: "Aretes de Pulpo",
-    description: "Diseño elegante de pulpo en diferentes colores",
+    name: "Aros de Tiburón Ballena Colgantes",
+    description: "Aros de Tiburón Ballena Colgantes, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Negro", image: "/placeholder.svg?height=400&width=400&text=Pulpo+Negro" },
-      { color: "Gris", image: "/placeholder.svg?height=400&width=400&text=Pulpo+Gris" },
-      { color: "Azul marino", image: "/placeholder.svg?height=400&width=400&text=Pulpo+Azul" },
+      { color: "Azul", image: "images/img (36).jpg" },
+  
     ],
-    category: "Pulpos",
-    whatsappMessage: "Me interesan los aretes de Pulpo 🐙",
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Tiburón Ballena Colgantes 🐳",
   },
+
   {
     id: 3,
-    name: "Aretes de Delfines",
-    description: "Hermosos delfines saltando en tonos azules del océano",
+    name: "Aros de Tiburón Ballena Topito",
+    description: "Aros de Tiburón Ballena Version Topito, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Azul", image: "/placeholder.svg?height=400&width=400&text=Delfin+Azul" },
-      { color: "Turquesa", image: "/placeholder.svg?height=400&width=400&text=Delfin+Turquesa" },
-      { color: "Celeste", image: "/placeholder.svg?height=400&width=400&text=Delfin+Celeste" },
+      { color: "Azul", image: "images/img (35).jpg" },
     ],
-    category: "Delfines",
-    whatsappMessage: "Me interesan los aretes de Delfines Azules 🐬💙",
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Tiburón Ballena version Topitos 🐳",
   },
+
+
   {
     id: 4,
-    name: "Aretes de Caballitos de Mar",
-    description: "Delicados caballitos de mar en colores vibrantes",
+    name: "Aros de Caballito de Mar",
+    description: "Aros de Caballito de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Rosa", image: "/placeholder.svg?height=400&width=400&text=Caballito+Rosa" },
-      { color: "Coral", image: "/placeholder.svg?height=400&width=400&text=Caballito+Coral" },
-      { color: "Dorado", image: "/placeholder.svg?height=400&width=400&text=Caballito+Dorado" },
+      { color: "Personalizado", image: "images/img (1).jpg" },
+      { color: "Azul", image: "images/img (3).jpg" },
+      { color: "Coral", image: "images/img (46).jpg" },
+      { color: "Naranja", image: "images/img (63).jpg" },
+      { color: "Morado", image: "images/img (5).jpg" },
     ],
-    category: "Caballitos de Mar",
-    whatsappMessage: "Me interesan los aretes de Caballitos de Mar 🌊",
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Caballito de Mar 🐴",
   },
+
   {
     id: 5,
-    name: "Aretes de Estrellas de Mar",
-    description: "Estrellas marinas con textura realista y acabado brillante",
-    variants: [{ color: "Naranja", image: "/placeholder.svg?height=400&width=400&text=Estrella+Naranja" }],
-    category: "Estrellas de Mar",
-    whatsappMessage: "Me interesan los aretes de Estrellas de Mar ⭐",
+    name: "Aros de Ballena Azul",
+    description: "Aros de Ballena Azul, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Azul", image: "images/img (6).jpg" },
+      
+    ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Ballena Azul 🐋",
   },
+
   {
     id: 6,
-    name: "Aretes de Conchas Marinas",
-    description: "Elegantes conchas con detalles naturales y perlados",
+    name: "Aros de Medusas",
+    description: "Aros de Medusas, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Perla", image: "/placeholder.svg?height=400&width=400&text=Concha+Perla" },
-      { color: "Blanco", image: "/placeholder.svg?height=400&width=400&text=Concha+Blanca" },
-      { color: "Beige", image: "/placeholder.svg?height=400&width=400&text=Concha+Beige" },
+      { color: "Morado", image: "images/img (15).jpg" },
+      { color: "Azul", image: "images/img (17).jpg" },
+      
     ],
-    category: "Conchas",
-    whatsappMessage: "Me interesan los aretes de Conchas Marinas 🐚",
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Medusas 🪼",
   },
+
+
+  {
+    id: 7,
+    name: "Aros de Cangrejo Colgante",
+    description: "Aros de Cangrejo Colgante, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Naranja", image: "images/img (66).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Cangrejo Colgantes 🦀",
+  },
+
+  {
+    id: 8,
+    name: "Aros de Cangrejo Topito",
+    description: "Aros de Cangrejo Topito, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      
+      { color: "Naranja", image: "images/img (50).jpg" },
+      
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Estrella de Mar ⭐",
+  },
+  
+  
+  {
+    id: 9,
+    name: "Aros de Delfin",
+    description: "Aros de Delfin, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Azul", image: "images/img (32).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Delfin 🐬",
+  },
+  
+  {
+    id: 10,
+    name: "Aros de Nemo",
+    description: "Aros de Nemo, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Coral", image: "images/img (11).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Nemo 🐠",
+  },
+
+  {
+    id: 11,
+    name: "Aros de Estrella de Mar",
+    description: "Aros de Estrella de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Personalizado", image: "images/img (20).jpg" },
+      { color: "Naranja", image: "images/img (21).jpg" },
+      { color: "Coral", image: "images/img (22).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Estrella de Mar ⭐",
+  },
+
+  {
+    id: 12,
+    name: "Aros de Foca",
+    description: "Aros de foca, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Gris", image: "images/img (30).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Foca 🦭",
+  },
+
+  {
+    id: 13,
+    name: "Aros de Estrella y Concha",
+    description: "Composición Marina Estrella y Concha, elaborados en porcelana fría, con base de acero inoxidable.",
+    variants: [
+      { color: "Naranja", image: "images/img (43).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los aros de Estrella y Concha ⭐🐚",
+  },
+
+  {
+    id: 14,
+    name: "Topitos de Conchas",
+    description: "Mini Conchitas, Ideal para el dia a dia.",
+    variants: [
+      { color: "Coral", image: "images/img (56).jpg" },
+        ],
+    category: "Colección Oceánica",
+    whatsappMessage: "Me interesan los topitos de Conchas 🐚",
+  },
+  
+
 ]
 
 export default function ProductCatalog() {
