@@ -47,7 +47,7 @@ export default function ContactSection() {
 
           {/* Email */}
           <a
-            href="mailto:info@coriolisaccesorios.cl"
+            href="mailto:coriolisaccesorios@gmail.com"
             className="glass-effect p-6 sm:p-8 rounded-xl sm:rounded-2xl text-center hover:bg-white/20 transition-all duration-300 group focus-visible"
           >
             <div className="w-12 h-12 sm:w-16 sm:h-16 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
@@ -61,7 +61,7 @@ export default function ContactSection() {
               </svg>
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Email</h3>
-            <p className="text-white/80 text-sm sm:text-base">info@coriolisaccesorios.cl</p>
+            <p className="text-white/80 text-sm sm:text-base">coriolisaccesorios@gmail.com</p>
             <p className="text-white/60 text-xs sm:text-sm mt-2">Para consultas detalladas</p>
           </a>
         </div>
@@ -81,7 +81,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="font-semibold mb-1">⏰ Tiempo de Entrega</p>
-                <p className="text-sm">3-7 días hábiles</p>
+                <p className="text-sm">3-5 días hábiles</p>
               </div>
             </div>
           </div>

@@ -8,9 +8,9 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/bgHero.png"
-          alt="Taller de artesanías con productos hechos a mano"
+          alt="Artesanias Coriolis"
           fill
-          className="object-container object-center"
+          className="object-cover object-center"
           priority
           quality={90}
         />
@@ -32,8 +32,8 @@ export default function Hero() {
           {/* Título principal con animación */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
             <span className="block">Bienvenidos a</span>
-            <span className="block bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-400 bg-clip-text text-transparent">
-              Nuestra Tiendita
+            <span className="block bg-gradient-to-r from-teal-500 via-teal-700 to-teal-900 bg-clip-text text-transparent">
+              Coriolis Accesorios
             </span>
           </h1>
 
@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Link
               href="#productos"
-              className="group inline-flex items-center px-8 py-4 bg-amber-500 text-white font-semibold rounded-full hover:bg-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              className="group inline-flex items-center px-8 py-4 bg-teal-600 text-white font-semibold rounded-full hover:bg-teal-400 transform hover:scale-105 transition-all duration-300 shadow-lg"
             >
               Ver Productos
               <svg
@@ -62,7 +62,7 @@ export default function Hero() {
 
             <Link
               href="#nosotros"
-              className="inline-flex items-center px-8 py-4 border-2 border-gray-300 text-gray-800 font-semibold rounded-full hover:bg-gray-100 transition-all duration-300"
+              className="inline-flex items-center px-8 py-4 border-2 border-gray-300 text-gray-800 font-semibold rounded-full hover:bg-teal-100 transition-all duration-300"
             >
               Nuestra Historia
             </Link>
@@ -72,11 +72,11 @@ export default function Hero() {
           <div className="flex flex-wrap justify-center gap-6 pt-8 text-gray-600">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
-              <span className="text-sm">100% Artesanal</span>
+              <span className="text-sm">Producto Artesanal</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-              <span className="text-sm">Materiales Naturales</span>
+              <span className="text-sm">Materiales de Alta Calidad</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-blue-400 rounded-full"></div>

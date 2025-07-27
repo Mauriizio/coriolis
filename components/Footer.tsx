@@ -57,20 +57,16 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Categorías</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-gray-400 text-sm sm:text-base">🪼 Medusas</span>
+                <span className="text-gray-400 text-sm sm:text-base"> 🌊Coleccion Oceánica 2025</span>
+              </li>
+              
+              <li>
+                <span className="text-gray-400 text-sm sm:text-base">🌹 Colección Floral 2025</span>
               </li>
               <li>
-                <span className="text-gray-400 text-sm sm:text-base">🐙 Pulpos</span>
+                <span className="text-gray-400 text-sm sm:text-base">🐶 Pet Lovers</span>
               </li>
-              <li>
-                <span className="text-gray-400 text-sm sm:text-base">🐬 Delfines</span>
-              </li>
-              <li>
-                <span className="text-gray-400 text-sm sm:text-base">🌊 Caballitos de Mar</span>
-              </li>
-              <li>
-                <span className="text-gray-400 text-sm sm:text-base">⭐ Estrellas de Mar</span>
-              </li>
+              
             </ul>
           </div>
 
