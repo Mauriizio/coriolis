@@ -62,7 +62,7 @@ export default function Header() {
 
           {/* WhatsApp Button - Desktop */}
           <a
-            href="https://wa.me/56949473122?text=¡Hola! Me interesan sus accesorios marinos 🌊"
+            href="https://wa.me/56949473122?text=¡Hola! Me interesan sus accesorios, quiero saber más"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-3 lg:px-4 py-2 rounded-full transition-colors text-sm focus-visible"
@@ -76,14 +76,14 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 py-4 animate-fadeInUp">
-            <nav className="flex flex-col space-y-4">
+          <div className="bg-[url('/images/bgHero.png')] bg-cover md:hidden border-t border-gray-200 py-4 animate-fadeInUp">
+            <nav className=" flex flex-col items-center space-y-4">
               <Link
                 href="#productos"
                 className="text-gray-700 hover:text-teal-600 transition-colors px-2 py-1 focus-visible"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Productos
+                Ver Productos
               </Link>
               <Link
                 href="#nosotros"
@@ -100,7 +100,7 @@ export default function Header() {
                 Contacto
               </Link>
               <a
-                href="https://wa.me/56949473122?text=¡Hola! Me interesan sus accesorios marinos 🌊"
+                href="https://wa.me/56949473122?text=¡Hola! Me interesan sus accesorios, quiero saber más"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full transition-colors w-fit focus-visible"

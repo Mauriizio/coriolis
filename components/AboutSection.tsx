@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function AboutSection() {
   return (
-    <section id="nosotros" className="py-12 sm:py-16 lg:py-20 ocean-gradient">
+    <section id="nosotros" className="py-12 sm:py-16 lg:py-20  bg-[url('/images/bgHero.png')] bg-cover bg-no-repeat">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
 
@@ -16,7 +16,7 @@ export default function AboutSection() {
               <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-4 sm:mb-6">
                 Coriolis Accesorios nació del deseo de expresar el amor por la naturaleza, los animales, las plantas y el mar. Cada pieza se elabora a mano con porcelana fría y acero inoxidable, cuidando los detalles para ofrecer accesorios realmente únicos.
               </p>
-              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg sm:text-xl text-gray-600 leading-relaxed">
                 Las colecciones combinan motivos marinos, florales y de fauna, uniendo originalidad y calidad. Además, puedes personalizar colores o pequeños detalles: solo solicita tu cambio y creamos tu diseño a medida. Diseñados a mano desde Santiago de Chile.
                 
                 </p>

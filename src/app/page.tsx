@@ -14,6 +14,7 @@ export default function Home() {
       <Hero/>
       <HeroProduct2 />
       <HeroProduct />
+      
       <ProductCatalog />
       <AboutSection />
       <ContactSection />

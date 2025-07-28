@@ -10,6 +10,7 @@ export default function HeroProduct() {
     "/images/promo3.png",
     "/images/promo1.png",
     "/images/promo2.png",
+    "/images/modelopez.png",
     
     
   ]
@@ -38,7 +39,7 @@ export default function HeroProduct() {
   }
 
   return (
-    <section className="pt-16 sm:pt-20 pb-8 sm:pb-16 ocean-gradient">
+    <section className="pt-16 sm:pt-20 pb-8 sm:pb-16 ocean-gradient ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Product Images - Mobile First */}
