@@ -10,6 +10,8 @@ export default function HeroProduct() {
     "/images/promofloral (2).png",
     "/images/promofloral (3).png",
     "/images/promofloral (1).png",
+    "/images/promofloral (4).png",
+
     
   ]
 

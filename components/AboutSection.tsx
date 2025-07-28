@@ -14,58 +14,57 @@ export default function AboutSection() {
                 <span className="block text-teal-600">Coriolis Accesorios</span>
               </h2>
               <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-4 sm:mb-6">
-                Soy bióloga marina apasionada por el océano y sus criaturas. Cada accesorio que creo está inspirado en
-                la belleza y diversidad de la vida marina.
+                Coriolis Accesorios nació del deseo de expresar el amor por la naturaleza, los animales, las plantas y el mar. Cada pieza se elabora a mano con porcelana fría y acero inoxidable, cuidando los detalles para ofrecer accesorios realmente únicos.
               </p>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                Trabajo con porcelana fría y materiales de alta calidad para crear piezas únicas que capturen la esencia
-                del mar. Cada diseño es pintado a mano con amor y dedicación, desde Santiago de Chile 🇨🇱
-              </p>
+                Las colecciones combinan motivos marinos, florales y de fauna, uniendo originalidad y calidad. Además, puedes personalizar colores o pequeños detalles: solo solicita tu cambio y creamos tu diseño a medida. Diseñados a mano desde Santiago de Chile.
+                
+                </p>
             </div>
 
             {/* Features - Mobile Optimized Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-              {/* Inspiración Marina */}
-              <div className="flex items-start space-x-3 sm:space-x-4">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
-                  <span className="text-xl sm:text-2xl">🌊</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Inspiración Marina</h3>
-                  <p className="text-gray-600 text-xs sm:text-sm">Diseños basados en la vida oceánica</p>
-                </div>
-              </div>
-              {/* Hecho a Mano */}
-              <div className="flex items-start space-x-3 sm:space-x-4">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
-                  <span className="text-xl sm:text-2xl">✋</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Hecho a Mano</h3>
-                  <p className="text-gray-600 text-xs sm:text-sm">Cada pieza es única y especial</p>
-                </div>
-              </div>
-              {/* Base Científica */}
-              <div className="flex items-start space-x-3 sm:space-x-4">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
-                  <span className="text-xl sm:text-2xl">🔬</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Base Científica</h3>
-                  <p className="text-gray-600 text-xs sm:text-sm">Conocimiento de biología marina</p>
-                </div>
-              </div>
-              {/* Personalizable */}
-              <div className="flex items-start space-x-3 sm:space-x-4">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
-                  <span className="text-xl sm:text-2xl">🎨</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Personalizable</h3>
-                  <p className="text-gray-600 text-xs sm:text-sm">Colores y diseños a tu gusto</p>
-                </div>
-              </div>
-            </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+  {/* Inspiración Natural */}
+  <div className="flex items-start space-x-3 sm:space-x-4">
+    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
+      <span className="text-xl sm:text-2xl">🌿</span>
+    </div>
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Inspiración Natural</h3>
+      <p className="text-gray-600 text-xs sm:text-sm">Diseños que reflejan el amor por la flora y la fauna</p>
+    </div>
+  </div>
+  {/* Hecho a Mano */}
+  <div className="flex items-start space-x-3 sm:space-x-4">
+    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
+      <span className="text-xl sm:text-2xl">✋</span>
+    </div>
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Hecho a Mano</h3>
+      <p className="text-gray-600 text-xs sm:text-sm">Cada pieza es elaborada cuidadosamente a mano</p>
+    </div>
+  </div>
+  {/* Detalle y dedicación */}
+  <div className="flex items-start space-x-3 sm:space-x-4">
+    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
+      <span className="text-xl sm:text-2xl">💗</span>
+    </div>
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Hecho con Amor</h3>
+      <p className="text-gray-600 text-xs sm:text-sm">Cada pieza es unica, pintada con paciencia y mucho cariño</p>
+    </div>
+  </div>
+  {/* Personalizable */}
+  <div className="flex items-start space-x-3 sm:space-x-4">
+    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-xl flex items-center justify-center">
+      <span className="text-xl sm:text-2xl">🎨</span>
+    </div>
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Personalizable</h3>
+      <p className="text-gray-600 text-xs sm:text-sm">Crea una pieza única con tus colores y gustos</p>
+    </div>
+  </div>
+</div>
 
             {/* Social Links - Mobile Optimized */}
             <div className="flex justify-center sm:justify-start">
@@ -83,9 +82,9 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Image - Reducida al 50% */}
+          {/* Image */}
           <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
-            <div className="relative w-1/2 aspect-square bg-gradient-to-br from-teal-100 to-cyan-200 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl">
+            <div className="relative w-full aspect-square bg-gradient-to-br from-teal-100 to-cyan-200 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl">
               <Image
                 src="/images/logo.png"
                 alt="Artesana trabajando en accesorios marinos"

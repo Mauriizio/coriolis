@@ -16,9 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Coriolis Accesorios – Joyería Artesanal Exclusiva | Santiago, Chile",
   description:
-    "Accesorios hechos a mano en porcelana fría: colecciones oceánica, floral, Pet Lovers y más. Diseños exclusivos, personalizados y envíos a todo Chile.",
+    "Descubre nuestros aretes artesanales hechos a mano en porcelana fría, con diseños de flores y animales marinos. Aros únicos, femeninos, originales, perfectos para regalar o lucir un estilo creativo. Joyería artesanal en Santiago de Chile.",
   keywords:
-    "joyería artesanal, accesorios únicos, porcelana fría, colecciones oceánica, colección floral, Pet Lovers, accesorios para mascotas, Santiago Chile",
+    "joyería artesanal mujer, aretes hechos a mano, aros artesanales, aretes de porcelana fría, accesorios originales para mujer, aros con diseño floral, aretes con flores, aros con forma de animales, aretes con animales marinos, joyas artesanales Chile, aros femeninos únicos, accesorios delicados para mujer, joyería creativa hecha a mano, regalos originales para mujer, joyería artesanal Santiago.",
+
   authors: [{ name: "Coriolis Accesorios" }],
   openGraph: {
     title: "Coriolis Accesorios – Joyería Artesanal Única",
