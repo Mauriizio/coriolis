@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-              Accesorios únicos inspirados en la vida marina, hechos a mano con amor desde Santiago de Chile.
+              Accesorios únicos en porcelana fría con base de acero inoxidable, hechos a mano con amor desde Santiago de Chile.
             </p>
           </div>
 

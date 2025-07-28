@@ -66,26 +66,37 @@ export default function ContactSection() {
           </a>
         </div>
 
-        {/* Additional Info */}
-        <div className="mt-8 sm:mt-12 text-center">
-          <div className="glass-effect p-6 sm:p-8 rounded-xl sm:rounded-2xl">
-            <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">🌊 Información Adicional</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-white/90">
-              <div>
-                <p className="font-semibold mb-1">📍 Ubicación</p>
-                <p className="text-sm">Santiago de Chile</p>
-              </div>
-              <div>
-                <p className="font-semibold mb-1">🚚 Envíos</p>
-                <p className="text-sm">A todo Chile</p>
-              </div>
-              <div>
-                <p className="font-semibold mb-1">⏰ Tiempo de Entrega</p>
-                <p className="text-sm">3-5 días hábiles</p>
-              </div>
-            </div>
-          </div>
-        </div>
+       {/* Additional Info */}
+<div className="mt-8 sm:mt-12 text-center">
+  <div className="glass-effect p-6 sm:p-8 rounded-xl sm:rounded-2xl">
+    <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">🌟 Información Adicional</h3>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 text-white/90">
+      {/* Ubicación */}
+      <div>
+        <p className="font-semibold mb-1">📍 Ubicación</p>
+        <p className="text-sm">Santiago de Chile</p>
+      </div>
+      {/* Envíos */}
+      <div>
+        <p className="font-semibold mb-1">🚚 Envíos</p>
+        <p className="text-sm">Realizamos envíos a todo Chile</p>
+      </div>
+      {/* Tiempo de Entrega */}
+      <div>
+        <p className="font-semibold mb-1">⏰ Tiempo de Entrega</p>
+        <p className="text-sm">Entre 3 y 5 días hábiles, según región</p>
+      </div>
+      {/* Personalización */}
+      <div>
+        <p className="font-semibold mb-1">🎨 Personalización</p>
+        <p className="text-sm">
+          Contamos con modelos listos para entrega, pero si deseas otro color o estilo, también se puede crear tu diseño desde cero
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   )

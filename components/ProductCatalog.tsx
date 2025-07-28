@@ -539,22 +539,58 @@ export default function ProductCatalog() {
           </p>
         </div>
 
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-3 rounded-full font-medium transition-all ${
-                selectedCategory === category
-                  ? "bg-teal-500 text-white shadow-lg"
-                  : "bg-gray-100 text-gray-700 hover:bg-teal-50 hover:text-teal-600"
-              }`}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
+        {/* Category Filter - Carrusel con flechas suaves */}
+<div className="mb-12 relative">
+  <h2 className="text-center text-lg sm:text-xl font-semibold mb-4 text-gray-800">
+    Selecciona una categoría
+  </h2>
+
+  {/* Flecha izquierda */}
+  <div className="absolute left-2 top-1/2 -translate-y-1/2 z-10 sm:hidden pointer-events-none">
+    <svg
+      className="w-5 h-5 text-teal-500 opacity-60 animate-pulse"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+  </div>
+
+  {/* Flecha derecha */}
+  <div className="absolute right-2 top-1/2 -translate-y-1/2 z-10 sm:hidden pointer-events-none">
+    <svg
+      className="w-5 h-5 text-teal-500 opacity-60 animate-pulse"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+    </svg>
+  </div>
+
+  <div className="overflow-x-auto scrollbar-hide px-4">
+    <div className="flex w-max space-x-3">
+      {categories.map((category) => (
+        <button
+          key={category}
+          onClick={() => setSelectedCategory(category)}
+          className={`whitespace-nowrap px-6 py-3 rounded-full font-medium transition-all ${
+            selectedCategory === category
+              ? "bg-teal-500 text-white shadow-lg"
+              : "bg-gray-100 text-gray-700 hover:bg-teal-50 hover:text-teal-600"
+          }`}
+        >
+          {category}
+        </button>
+      ))}
+    </div>
+  </div>
+</div>
+
+
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
