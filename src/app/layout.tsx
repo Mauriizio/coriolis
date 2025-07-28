@@ -14,20 +14,25 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Coriolis Accesorios - Joyería Marina Artesanal | Santiago, Chile",
+  title: "Coriolis Accesorios – Joyería Artesanal Exclusiva | Santiago, Chile",
   description:
-    "Descubre accesorios únicos inspirados en la vida marina. Aretes de medusas, pulpos, delfines y más, hechos a mano en porcelana fría. Envíos a todo Chile.",
+    "Accesorios hechos a mano en porcelana fría: colecciones oceánica, floral, Pet Lovers y más. Diseños exclusivos, personalizados y envíos a todo Chile.",
   keywords:
-    "accesorios marinos, aretes artesanales, joyería marina, medusas, pulpos, delfines, Santiago Chile, porcelana fría",
+    "joyería artesanal, accesorios únicos, porcelana fría, colecciones oceánica, colección floral, Pet Lovers, accesorios para mascotas, Santiago Chile",
   authors: [{ name: "Coriolis Accesorios" }],
   openGraph: {
-    title: "Coriolis Accesorios - Joyería Marina Artesanal",
-    description: "Accesorios únicos inspirados en la vida marina, hechos a mano con amor",
+    title: "Coriolis Accesorios – Joyería Artesanal Única",
+    description:
+      "Descubre accesorios handcrafted en porcelana fría: desde conchas y flores hasta diseños Pet Lovers. Exclusividad y estilo en cada pieza.",
     type: "website",
     locale: "es_CL",
   },
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
+
 
 export default function RootLayout({
   children,

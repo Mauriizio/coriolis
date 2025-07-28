@@ -8,8 +8,9 @@ export default function HeroProduct() {
 
   const productImages = [
     "/images/promofloral (2).png",
-    "/images/promofloral (1).png",
     "/images/promofloral (3).png",
+    "/images/promofloral (1).png",
+    
   ]
 
   // Auto‑rotate images every 3 seconds, loop back to start
@@ -36,7 +37,7 @@ export default function HeroProduct() {
   }
 
   return (
-    <section className="pt-16 sm:pt-20 pb-8 sm:pb-16 bg-gradient-to-b from-white via-sky-100 to-pink-50">
+    <section className="bg-[url('/images/bg-floral.png')] bg-no-repeat bg-center bg-cover pt-16 sm:pt-20 pb-8 sm:pb-16 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Product Images - Mobile First */}

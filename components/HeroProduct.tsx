@@ -7,9 +7,11 @@ export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const productImages = [
-    "/images/promo2.png",
-    "/images/promo1.png",
     "/images/promo3.png",
+    "/images/promo1.png",
+    "/images/promo2.png",
+    
+    
   ]
 
   // Auto‑rotate images every 3 seconds, loop back to start
