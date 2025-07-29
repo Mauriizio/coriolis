@@ -207,8 +207,8 @@ const products: Product[] = [
 
   {
     id: 16,
-    name: "Aros de Flor de Zafira",
-    description: "Aros de Flor Zafira, elaborados en porcelana fría, con base de acero inoxidable.",
+    name: "Aros Zafira",
+    description: "Aros Zafira, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
       { color: "Rojo", image: "images/img (47).jpg" },
@@ -220,14 +220,14 @@ const products: Product[] = [
 
   {
     id: 17,
-    name: "Aros de Flor de Melany",
+    name: "Aros Melany",
     description: "Base redonda con pequeñas flores en tonos suaves, estilo elegante y delicado.",
     variants: [
       
       { color: "Coral", image: "images/img (39).jpg" },
         ],
     category: "Colección Floral",
-    whatsappMessage: "Me interesan los aros de Flor Melany 🌼",
+    whatsappMessage: "Me interesan los aros Melany 🌼",
   },
 
   {
@@ -256,20 +256,20 @@ const products: Product[] = [
 
   {
     id: 20,
-    name: "Aros de Flor de Liora",
-    description: "Inspirados en la Flor de Liora, en porcelana fría, con base de acero inoxidable.",
+    name: "Topitos Liora",
+    description: "Aros Liora, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
       { color: "Rojo", image: "images/img (67).jpg" },
         ],
     category: "Colección Floral",
-    whatsappMessage: "Me interesan los topitos de flor de Liora 🌸",
+    whatsappMessage: "Me interesan los topitos Liora 🌸",
   },
 
   {
     id: 21,
-    name: "Aros de Girasol Topito",
-    description: "Aros florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
+    name: "Topitos de Girasol",
+    description: "Topitos florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
       { color: "Amarillo", image: "images/img (60).jpg" },
@@ -306,8 +306,8 @@ const products: Product[] = [
 
   {
     id: 24,
-    name: "Aros de Flor de Margarita Topitos",
-    description: "Aros florales inspirados en Margaritas frescas en version topitos.",
+    name: "Topitos Flor de Margarita",
+    description: "Topitos florales inspirados en Margaritas frescas en version topitos.",
     variants: [
       
       { color: "Blanco", image: "images/img (18).jpg" },
@@ -318,8 +318,8 @@ const products: Product[] = [
 
   {
     id: 25,
-    name: "Aros Floriolis Topitos",
-    description: "Aros llamativos con una gran flor central, en porcelana fría, con base de acero inoxidable.",
+    name: "Topitos Floriolis",
+    description: "Topitos llamativos con una gran flor central, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
       { color: "Naranja", image: "images/img (41).jpg" },
