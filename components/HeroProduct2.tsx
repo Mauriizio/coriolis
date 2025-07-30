@@ -7,10 +7,10 @@ export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const productImages = [
-    "/images/promofloral (2).png",
-    "/images/promofloral (3).png",
-    "/images/promofloral (1).png",
-    "/images/promofloral (4).png",
+    "/images/promofloral (2).webp",
+    "/images/promofloral (3).webp",
+    "/images/promofloral (1).webp",
+    "/images/promofloral (4).webp",
 
     
   ]
@@ -39,7 +39,7 @@ export default function HeroProduct() {
   }
 
   return (
-    <section className="bg-[url('/images/bg-floral.png')] bg-no-repeat bg-center bg-cover pt-16 sm:pt-20 pb-8 sm:pb-16 ">
+    <section className="bg-[url('/images/bg-floral.webp')] bg-no-repeat bg-center bg-cover pt-16 sm:pt-20 pb-8 sm:pb-16 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Product Images - Mobile First */}
@@ -47,7 +47,7 @@ export default function HeroProduct() {
             {/* Main Image */}
             <div className="relative aspect-square bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl overflow-hidden">
               <Image
-                src={productImages[selectedImage] || "/images/logo.png"}
+                src={productImages[selectedImage] || "/images/logo.webp"}
                 alt={`Promoción ${selectedImage + 1}`}
                 fill
                 className="object-cover object-center"

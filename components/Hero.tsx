@@ -9,7 +9,7 @@ export default function Hero() {
         relative w-full h-screen
         flex flex-col items-center justify-between
         bg-white
-        bg-[url('/images/bgHero.png')]
+        bg-[url('/images/bgHero.webp')]
         bg-no-repeat bg-top sm:bg-center bg-cover
         px-4 py-8
       "
@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Logo en la parte superior (más grande) */}
       <div className="mt-12">
         <Image
-          src="/images/coriolis.png"
+          src="/images/coriolis.webp"
           alt="Coriolis Accesorios"
           width={400}
           height={400}

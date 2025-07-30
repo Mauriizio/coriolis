@@ -14,7 +14,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 relative">
 
-              <Image src="/images/logo.png" alt="Coriolis Accesorios Logo" fill className="object-contain" priority />
+              <Image src="/images/logo.webp" alt="Coriolis Accesorios Logo" fill className="object-contain" priority />
 
             </div>
             <div className="flex flex-col">
@@ -76,7 +76,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="bg-[url('/images/bgHero.png')] bg-cover md:hidden border-t border-gray-200 py-4 animate-fadeInUp">
+          <div className="bg-[url('/images/bgHero.webp')] bg-cover md:hidden border-t border-gray-200 py-4 animate-fadeInUp">
             <nav className=" flex flex-col items-center space-y-4">
               <Link
                 href="#productos"

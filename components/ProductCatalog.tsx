@@ -25,7 +25,7 @@ const products: Product[] = [
     name: "Aros de Orca",
     description: "Aros de Orca, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Negro", image: "images/img (8).jpg" },
+      { color: "Negro", image: "images/img (8).webp" },
 
     ],
     category: "Colección Oceánica",
@@ -37,7 +37,7 @@ const products: Product[] = [
     name: "Aros de Tiburón Ballena Colgantes",
     description: "Tiburón Ballena Colgante, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Azul", image: "images/img (36).jpg" },
+      { color: "Azul", image: "images/img (36).webp" },
   
     ],
     category: "Colección Oceánica",
@@ -49,7 +49,7 @@ const products: Product[] = [
     name: "Aros de Tiburón Ballena Topito",
     description: "Tiburón Ballena Topito, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Azul", image: "images/img (35).jpg" },
+      { color: "Azul", image: "images/img (35).webp" },
     ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Tiburón Ballena version Topitos 🐳",
@@ -61,11 +61,11 @@ const products: Product[] = [
     name: "Aros de Caballito de Mar",
     description: "Aros de Caballito de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Personalizado", image: "images/img (1).jpg" },
-      { color: "Azul", image: "images/img (3).jpg" },
-      { color: "Coral", image: "images/img (46).jpg" },
-      { color: "Naranja", image: "images/img (63).jpg" },
-      { color: "Morado", image: "images/img (5).jpg" },
+      { color: "Personalizado", image: "images/img (1).webp" },
+      { color: "Azul", image: "images/img (3).webp" },
+      { color: "Coral", image: "images/img (46).webp" },
+      { color: "Naranja", image: "images/img (63).webp" },
+      { color: "Morado", image: "images/img (5).webp" },
     ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Caballito de Mar 🐴",
@@ -76,7 +76,7 @@ const products: Product[] = [
     name: "Aros de Ballena Azul",
     description: "Aros de Ballena Azul, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Azul", image: "images/img (6).jpg" },
+      { color: "Azul", image: "images/img (6).webp" },
       
     ],
     category: "Colección Oceánica",
@@ -88,8 +88,8 @@ const products: Product[] = [
     name: "Aros de Medusas",
     description: "Aros de Medusas, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Morado", image: "images/img (15).jpg" },
-      { color: "Azul", image: "images/img (17).jpg" },
+      { color: "Morado", image: "images/img (15).webp" },
+      { color: "Azul", image: "images/img (17).webp" },
       
     ],
     category: "Colección Oceánica",
@@ -102,7 +102,7 @@ const products: Product[] = [
     name: "Aros de Cangrejo Colgante",
     description: "Aros de Cangrejo Colgante, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Naranja", image: "images/img (66).jpg" },
+      { color: "Naranja", image: "images/img (66).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Cangrejo Colgantes 🦀",
@@ -114,7 +114,7 @@ const products: Product[] = [
     description: "Aros de Cangrejo Topito, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Naranja", image: "images/img (50).jpg" },
+      { color: "Naranja", image: "images/img (50).webp" },
       
         ],
     category: "Colección Oceánica",
@@ -127,7 +127,7 @@ const products: Product[] = [
     name: "Aros de Delfin",
     description: "Aros de Delfin, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Azul", image: "images/img (32).jpg" },
+      { color: "Azul", image: "images/img (32).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Delfin 🐬",
@@ -138,7 +138,7 @@ const products: Product[] = [
     name: "Aros de Nemo",
     description: "Aros de Nemo, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Rojo", image: "images/img (11).jpg" },
+      { color: "Rojo", image: "images/img (11).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Nemo 🐠",
@@ -149,9 +149,9 @@ const products: Product[] = [
     name: "Aros de Estrella de Mar",
     description: "Aros de Estrella de Mar, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Personalizado", image: "images/img (20).jpg" },
-      { color: "Naranja", image: "images/img (21).jpg" },
-      { color: "Coral", image: "images/img (22).jpg" },
+      { color: "Personalizado", image: "images/img (20).webp" },
+      { color: "Naranja", image: "images/img (21).webp" },
+      { color: "Coral", image: "images/img (22).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Estrella de Mar ⭐",
@@ -162,7 +162,7 @@ const products: Product[] = [
     name: "Aros de Foca",
     description: "Aros de foca, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Gris", image: "images/img (30).jpg" },
+      { color: "Gris", image: "images/img (30).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Foca 🦭",
@@ -173,7 +173,7 @@ const products: Product[] = [
     name: "Aros de Estrella y Concha",
     description: "Composición Marina Estrella y Concha, en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Naranja", image: "images/img (43).jpg" },
+      { color: "Naranja", image: "images/img (43).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los aros de Estrella y Concha ⭐🐚",
@@ -184,7 +184,7 @@ const products: Product[] = [
     name: "Topitos de Conchas",
     description: "Mini Conchitas, Ideal para el dia a dia, en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Coral", image: "images/img (56).jpg" },
+      { color: "Coral", image: "images/img (56).webp" },
         ],
     category: "Colección Oceánica",
     whatsappMessage: "Me interesan los topitos de Conchas 🐚",
@@ -196,10 +196,10 @@ const products: Product[] = [
     name: "Topitos de Mini Flores",
     description: "Mini Flores para combinar, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
-      { color: "Personalizado", image: "images/img (44).jpg" },
-      { color: "Morado", image: "images/img (58).jpg" },
-      { color: "Morado", image: "images/img (57).jpg" },
-      { color: "Rojo", image: "images/img (55).jpg" },
+      { color: "Personalizado", image: "images/img (44).webp" },
+      { color: "Morado", image: "images/img (58).webp" },
+      { color: "Morado", image: "images/img (57).webp" },
+      { color: "Rojo", image: "images/img (55).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos de mini flores 🌸",
@@ -211,7 +211,7 @@ const products: Product[] = [
     description: "Aros Zafira, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Rojo", image: "images/img (47).jpg" },
+      { color: "Rojo", image: "images/img (47).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos de Zafira 🌺",
@@ -224,7 +224,7 @@ const products: Product[] = [
     description: "Base redonda con pequeñas flores en tonos suaves, estilo elegante y delicado.",
     variants: [
       
-      { color: "Coral", image: "images/img (39).jpg" },
+      { color: "Coral", image: "images/img (39).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los aros Melany 🌼",
@@ -236,7 +236,7 @@ const products: Product[] = [
     description: "Inspirados en Margaritas frescas, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Blanco", image: "images/img (18).jpg" },
+      { color: "Blanco", image: "images/img (18).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los aros de flor Margarita 🌼",
@@ -248,7 +248,7 @@ const products: Product[] = [
     description: "Inspirados en la Flor Pensamientos, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Morado", image: "images/img (28).jpg" },
+      { color: "Morado", image: "images/img (28).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los aros de flor Pensamientos 🌺",
@@ -260,7 +260,7 @@ const products: Product[] = [
     description: "Aros Liora, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Rojo", image: "images/img (67).jpg" },
+      { color: "Rojo", image: "images/img (67).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos Liora 🌸",
@@ -272,7 +272,7 @@ const products: Product[] = [
     description: "Topitos florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Amarillo", image: "images/img (60).jpg" },
+      { color: "Amarillo", image: "images/img (60).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos de flor de Girasol 🌻",
@@ -284,9 +284,9 @@ const products: Product[] = [
     description: "Aros de inspiracion tropical en forma de hoja Monstera, en su version clasica o variegada.",
     variants: [
       
-      { color: "Verde", image: "images/img (23).jpg" },
-       { color: "Verde", image: "images/img (26).jpg" },
-       { color: "Verde", image: "images/img (25).jpg" },
+      { color: "Verde", image: "images/img (23).webp" },
+       { color: "Verde", image: "images/img (26).webp" },
+       { color: "Verde", image: "images/img (25).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los aros de hoja Monstera 🍃",
@@ -298,7 +298,7 @@ const products: Product[] = [
     description: "Aros florales de Girasol, elaborados en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Amarillo", image: "images/img (13).jpg" },
+      { color: "Amarillo", image: "images/img (13).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los aros de flor de Girasol colgantes 🌻",
@@ -310,7 +310,7 @@ const products: Product[] = [
     description: "Topitos florales inspirados en Margaritas frescas en version topitos.",
     variants: [
       
-      { color: "Blanco", image: "images/img (18).jpg" },
+      { color: "Blanco", image: "images/img (18).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos de flor Margarita 🌼",
@@ -322,7 +322,7 @@ const products: Product[] = [
     description: "Topitos llamativos con una gran flor central, en porcelana fría, con base de acero inoxidable.",
     variants: [
       
-      { color: "Naranja", image: "images/img (41).jpg" },
+      { color: "Naranja", image: "images/img (41).webp" },
         ],
     category: "Colección Floral",
     whatsappMessage: "Me interesan los topitos modelo Floriolis 🏵️",
@@ -336,7 +336,7 @@ const products: Product[] = [
     description: "Simpática mini huellita en topito para amantes de los animales.",
     variants: [
       
-      { color: "Personalizado", image: "images/img (62).jpg" },
+      { color: "Personalizado", image: "images/img (62).webp" },
         ],
     category: "Colección Pet Lovers",
     whatsappMessage: "Me interesan las Huellitas Pet Lovers 🐾",

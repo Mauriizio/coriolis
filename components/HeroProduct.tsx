@@ -7,10 +7,10 @@ export default function HeroProduct() {
   const [selectedImage, setSelectedImage] = useState(0)
 
   const productImages = [
-    "/images/promo3.png",
-    "/images/promo1.png",
-    "/images/promo2.png",
-    "/images/modelopez.png",
+    "/images/promo3.webp",
+    "/images/promo1.webp",
+    "/images/promo2.webp",
+    "/images/modelopez.webp",
     
     
   ]
@@ -47,7 +47,7 @@ export default function HeroProduct() {
             {/* Main Image */}
             <div className="relative aspect-square bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl overflow-hidden">
               <Image
-                src={productImages[selectedImage] || "/images/logo.png"}
+                src={productImages[selectedImage] || "/images/logo.webp"}
                 alt={`Promoción ${selectedImage + 1}`}
                 fill
                 className="object-cover object-center"

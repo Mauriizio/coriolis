@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function AboutSection() {
   return (
-    <section id="nosotros" className="py-12 sm:py-16 lg:py-20  bg-[url('/images/bgHero.png')] bg-cover bg-no-repeat">
+    <section id="nosotros" className="py-12 sm:py-16 lg:py-20  bg-[url('/images/bgHero.webp')] bg-cover bg-no-repeat">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
 
@@ -86,7 +86,7 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
             <div className="relative w-full aspect-square bg-gradient-to-br from-teal-100 to-cyan-200 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl">
               <Image
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Artesana trabajando en accesorios marinos"
                 fill
                 className="object-cover"
