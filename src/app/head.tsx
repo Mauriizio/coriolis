@@ -23,6 +23,14 @@ export default function Head() {
           href="/_next/static/css/5fb014a6473e18b3.css"
         />
       </noscript>
+
+         {/* --- Preload de la imagen de fondo del Hero --- */}
+      <link
+        rel="preload"
+        as="image"
+        href="/images/bgHero.webp"
+      />
+
     </>
   );
 }
