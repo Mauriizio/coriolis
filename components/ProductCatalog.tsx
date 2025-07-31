@@ -478,7 +478,8 @@ export default function ProductCatalog() {
           alt={`${alt} - ${variants[currentIndex]?.color}`}
           fill
           className="object-cover"
-          sizes="(max-width: 768px) 100vw, 50vw"
+          loading="lazy"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
 
         {/* Botones de navegación */}

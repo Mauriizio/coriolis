@@ -21,8 +21,11 @@ export default function Hero() {
           alt="Coriolis Accesorios"
           width={400}
           height={400}
-          className="object-contain"
           priority
+          fetchPriority="high"
+          sizes="(max-width:768px)100vw,380px"
+          className="object-contain"
+          
         />
       </div>
 
