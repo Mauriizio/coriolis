@@ -39,7 +39,7 @@ export default function Hero() {
         </Link>
         <Link
           href="#nosotros"
-          className="px-10 py-4 border-2 border-gray-300 text-gray-800 font-semibold rounded-full hover:bg-gray-100 transition"
+          className="px-10 py-4 mb-4 border-2 border-gray-300 text-gray-800 font-semibold rounded-full hover:bg-gray-100 transition"
         >
           Nuestra Historia
         </Link>
