@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="mb-16 flex flex-col sm:flex-row gap-6">
         <Link
           href="#productos"
-          className="px-10 py-4 bg-teal-600 text-white font-semibold rounded-full hover:bg-teal-500 transition"
+          className="px-10 py-4 mb-4 bg-teal-600 text-white font-semibold rounded-full hover:bg-teal-500 transition"
         >
           Ver Productos
         </Link>
